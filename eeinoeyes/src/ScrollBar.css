@@ -1,0 +1,19 @@
+header {
+   width: 100%;
+   height: 100px;
+   background-color: #ffebed;
+   position: fixed;
+}
+.bar {
+   position: fixed;
+   top: 100px;
+   left: 0;
+   height: 5px;
+   width: 100%;
+   background-color: #ececec;
+   z-index: 9999;
+   transition: width 0.1s ease-out;
+}
+main {
+   height: 2000px;
+}
